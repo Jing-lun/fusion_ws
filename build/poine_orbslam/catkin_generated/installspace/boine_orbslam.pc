@@ -1,0 +1,8 @@
+prefix=/home/jinglun/fusion_ws/install
+
+Name: boine_orbslam
+Description: Description of boine_orbslam
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jinglun/fusion_ws/install/lib 
+Requires: 

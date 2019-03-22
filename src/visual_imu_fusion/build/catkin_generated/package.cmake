@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "visual_imu_fusion")
+set(visual_imu_fusion_MAINTAINER "Roberto G. Valenti <robertogl.valenti@gmail.com>")
+set(visual_imu_fusion_DEPRECATED "")
+set(visual_imu_fusion_VERSION "1.0.0")
+set(visual_imu_fusion_BUILD_DEPENDS "cmake_modules" "eigen" "message_filters" "roscpp" "sensor_msgs" "nav_msgs" "std_msgs" "geometry_msgs" "image_geometry" "nodelet" "octomap" "octomap_msgs" "octomap_ros" "image_transport" "tf" "cv_bridge")
+set(visual_imu_fusion_RUN_DEPENDS "eigen" "cv_bridge" "message_filters" "roscpp" "sensor_msgs" "std_msgs" "nav_msgs" "tf" "octomap" "octomap_msgs" "octomap_ros" "image_transport" "geometry_msgs" "image_geometry" "nodelet")
+set(visual_imu_fusion_BUILDTOOL_DEPENDS "catkin")

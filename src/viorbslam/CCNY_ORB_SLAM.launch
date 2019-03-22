@@ -1,0 +1,9 @@
+<launch>
+
+ 	<node pkg="viorbslam" type="ros_rgbd" name="RGBD"  args="/home/jinglun/viorb_config/config/ORBvoc.bin /home/jinglun/viorb_config/config/kinect2_sd.yaml" cwd="node" output="screen">
+         <remap from="/kinect2/qhd/image_color_rect" to="/camera/color/image_rect_color" />
+         <remap from="/kinect2/qhd/image_depth_rect" to="/camera/aligned_depth_to_color/image_raw" />
+         launch-prefix="gdb -ex run --args"
+   </node>
+
+</launch>

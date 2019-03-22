@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ericyoung/ROS_WORK/visual_imu_fusion/build/devel/setup.sh

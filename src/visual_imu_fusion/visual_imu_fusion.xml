@@ -1,0 +1,9 @@
+<!-- IMU Complementary Filter nodelet publisher -->
+<library path="lib/libvisual_imu_fusion_nodelet">
+  <class name="visual_imu_fusion/visual_imu_fusion_node" type="VinsFusionNodelet" 
+    base_class_type="nodelet::Nodelet">
+    <description>
+      IMU complementary Filter nodelet publisher.
+    </description>
+  </class>
+</library>

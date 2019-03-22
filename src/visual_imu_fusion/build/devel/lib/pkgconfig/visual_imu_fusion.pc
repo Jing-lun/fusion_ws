@@ -1,0 +1,8 @@
+prefix=/home/ericyoung/ROS_WORK/visual_imu_fusion/build/devel
+
+Name: visual_imu_fusion
+Description: Description of visual_imu_fusion
+Version: 1.0.0
+Cflags: -I/home/ericyoung/ROS_WORK/visual_imu_fusion/include -I/usr/include/eigen3
+Libs: -L/home/ericyoung/ROS_WORK/visual_imu_fusion/build/devel/lib -lvisual_imu_fusion
+Requires: message_filters roscpp sensor_msgs std_msgs tf nav_msgs

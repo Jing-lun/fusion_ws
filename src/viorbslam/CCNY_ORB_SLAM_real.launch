@@ -1,0 +1,9 @@
+<launch>
+
+ 	<node pkg="viorbslam" type="ros_rgbd" name="RGBD"  args="/home/jinglun/viorb_config/config/ORBvoc.bin /home/jinglun/viorb_config/config/xtion.yaml" cwd="node" output="screen">
+         <remap from="/camera/rgb/image_raw" to="/camera/color/image_rect_color" />
+         <remap from="/camera/depth_registered/image_raw" to="/camera/aligned_depth_to_color/image_raw" />
+         launch-prefix="gdb -ex run --args"
+   </node>
+
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/jinglun/fusion_ws/devel
+
+Name: visual_imu_fusion
+Description: Description of visual_imu_fusion
+Version: 1.0.0
+Cflags: -I/home/jinglun/fusion_ws/src/visual_imu_fusion/include -I/usr/local/include/eigen3
+Libs: -L/home/jinglun/fusion_ws/devel/lib -lvisual_imu_fusion
+Requires: message_filters roscpp sensor_msgs std_msgs tf nav_msgs

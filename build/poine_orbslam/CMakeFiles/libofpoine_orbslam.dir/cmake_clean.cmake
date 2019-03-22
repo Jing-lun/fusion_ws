@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/libofpoine_orbslam.dir/src/Camera.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/System.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Tracking.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/LocalMapping.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/LoopClosing.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/ORBextractor.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/ORBmatcher.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/FrameDrawer.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Converter.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/MapPoint.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/KeyFrame.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Map.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/MapDrawer.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Optimizer.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/PnPsolver.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Frame.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/KeyFrameDatabase.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Sim3Solver.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Initializer.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Viewer.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/PangolinViewer.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/pointcloudmapping.cc.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Thirdparty/DBoW2/DUtils/Random.cpp.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Thirdparty/DBoW2/DBoW2/FORB.cpp.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.o"
+  "CMakeFiles/libofpoine_orbslam.dir/src/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.o"
+  "/home/jinglun/fusion_ws/devel/lib/liblibofpoine_orbslam.pdb"
+  "/home/jinglun/fusion_ws/devel/lib/liblibofpoine_orbslam.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/libofpoine_orbslam.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

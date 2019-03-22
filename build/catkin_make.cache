@@ -1,0 +1,2 @@
+poine_orbslam:viorbslam:visual_imu_fusion
+-DCATKIN_DEVEL_PREFIX=/home/jinglun/fusion_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jinglun/fusion_ws/install -G Unix Makefiles
